@@ -65,7 +65,7 @@ int my_cdr(info_t *inform)
 		chkdir_ret = chdir(inform->argv[1]);
 	if (chkdir_ret == -1)
 	{
-		prints_error(inform, "can't cd into ");
+		prints_error(inform, "can't cd to ");
 		eputs(inform->argv[1]), eputchar('\n');
 	}
 	else
