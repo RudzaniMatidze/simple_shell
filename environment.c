@@ -72,7 +72,7 @@ int my_unsetenv(info_t *inform)
 }
 
 /**
- * popul_enviro_list - populates envron linked list
+ * popul_environ_list - populates envron linked list
  * @inform: contains potential arguments.
  * Return: Always 0
  */

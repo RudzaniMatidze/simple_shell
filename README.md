@@ -17,6 +17,10 @@ man or help:
 
 ## compilation
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o shell
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o shell_0.3
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o shell_0.4.1
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o simple_shell
 
 ## testing
 
